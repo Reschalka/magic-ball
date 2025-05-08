@@ -1,0 +1,26 @@
+import random
+
+que = input('Questiaon: ')
+ran = random.randint(1,9)
+
+if ran == 1:
+  print('Yes - definitely')
+elif ran == 2:
+  print('It is decidedly so')
+elif ran == 3:
+  print('Without a doubt')
+elif ran == 4:
+  print('Reply hazy, try again')
+elif ran == 5:
+  print('Ask again later')
+elif ran == 6:
+  print('Better not tell you now')
+elif ran == 7:
+  print('My sources say no')
+elif ran == 8:
+  print('Outlook not so good')
+elif ran == 9:
+  print('Very doubtful')
+else:
+  print('try')  
+
